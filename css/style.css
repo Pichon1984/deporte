@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    background-color: rgba(151, 237, 108, 0.934);
+    display: block;
+    flex-direction: column;
+    align-items: center;justify-content: space-around;
+
+}
+
+footer {
+    background-color: rgba(151, 237, 108, 0.934);
+
+}
+
+.nav-link {
+    color: black;
+
+}
+
+.btn-outline-success {
+    color: rgb(0, 0, 0);
+
+}
+
+
+.nav {
+    --bs-nav-link-hover-color: #198754;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav {
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    
+    
+}
+
+main {
+    background-color: rgb(115, 212, 88);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.cart-button {
+    display: flex;
+    align-items: center;
+    background-color: rgba(151, 237, 108, 0.934);
+    color: rgb(9, 0, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.cart-button:hover {
+    background-color: #198754;
+}
+
+.cart-button span {
+    margin-left: 10px;
+}
+.card-title{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+}

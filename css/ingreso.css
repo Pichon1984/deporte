@@ -1,0 +1,198 @@
+main {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    background-color: #cbd5e1;}
+
+/*Container general*/
+#contenedoriniciosesion {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 2%;
+    display: flex;
+    background-color: #caedfd;
+    width: 55%;
+    height: 70%;
+    border-radius: 8px;
+}
+
+#imageniniciosesion {
+    /*mitad container general con imagen*/
+    width: 100%;
+    background-image: url(../assest/img/logo\ mio.png);
+    background-position:center;
+   /*  background-size: cover; */
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+
+#contformularioiniciosesion {
+    /*mitad container general con fromulario y botones*/
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#contenedorcorreoform {
+    /*mitad container inicio sesion divide; fromulario y botones*/
+    width: 60%;
+    height: 50%;
+}
+
+#contenedorcorreoform h1 {
+    font-size: x-large;
+}
+
+#contenedorcorreoform a {
+    padding-top: 2%;
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+}
+
+#correoform {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+}
+
+#correoform input {
+    padding: 7px 7px;
+    border-radius: 8px;
+    min-height: 35px;
+    border: 2px solid #ccc;
+    background-color: white;
+    margin-top: 2%;
+}
+#correoform input:focus{
+    outline: none;
+    border: 2px solid #5fa5d7;
+}
+
+#contenedorbotones {
+    margin-top: 2%;
+    height: 50%;
+    width: 60%;
+}
+
+#contenedorbotones a {
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+}
+
+.botonmasred {
+    /*aplica estilo a todos los botones*/
+    border-radius: 8px;
+    height: 45px;
+    width: 100%;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid #ccc;
+    background-color: white;
+}
+
+.boton {
+    width: 20%;
+}
+
+.comentario {
+    width: 80%;
+    color: black;
+}
+
+.botonmasred img {
+    /*aplica estilo a img de los botones*/
+    width: 20px;
+}
+
+.botonmasred.google {
+    background-color: white;
+    border: 1.5px solid #ccc;
+}
+
+.botonmasred.face {
+    background-color: #1778f2;
+    border-color: #1778f2;
+}
+.botonmasred:hover{
+    transform: scale(0.99);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.botonmasred:active {
+    transform: scale(0.97);
+
+}
+
+/*define anchos de la imagen y del texto del boton*/
+
+@media (max-width: 1150px) {
+    #contenedoriniciosesion {
+        width: 90%;
+        height: 70%;
+    }}
+
+@media (max-width: 1020px) {
+    #contenedoriniciosesion {
+        width: 90%;
+        height: 70%;
+    }
+
+    #contformularioiniciosesion {
+        /*mitad container general con fromulario y botones*/
+        padding-top: 5%;
+        width: 80%;
+    }
+}
+
+
+
+@media (max-width: 625px) {
+    #contenedorcorreoform {
+    width: 95%;
+    height: 50%;
+}
+    #contenedorbotones {
+        width: 95%;
+    }
+
+    #contformularioiniciosesion {
+        /*mitad container general con fromulario y botones*/
+        width: 90%;
+        padding-top: 5%;
+        padding-bottom: 10%;
+    }
+}
+
+
+
+@media (max-width: 385px) {
+    #imageniniciosesion {
+        /*mitad container general con imagen*/
+        width: 0;
+    }
+
+    #contformularioiniciosesion {
+        /*mitad container general con fromulario y botones*/
+        padding-top: 5%;
+        width: 100%;
+    }
+
+    #contenedoriniciosesion {
+        height: 60%;
+    }
+#contenedorcorreoform {
+    width: 95%;
+    height: 50%;
+}
+}

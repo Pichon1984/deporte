@@ -1,0 +1,40 @@
+ h1{
+  display: flex;
+  justify-content: center;
+ }
+
+ @media (max-width: 600px) {
+      .card2 {
+        flex: 1 1 30%; 
+}
+
+}
+.card{
+    background-color: rgba(151, 237, 108, 0.934);
+    margin: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    font-size:1rem ;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    text-align:center;
+    width: 300px;
+    
+}
+
+#card{
+    display: flex;
+    flex-wrap: wrap;
+}
+h2{
+  font-size:1rem ;
+}
+.h3{
+    color: red;
+}
+
+
+
+

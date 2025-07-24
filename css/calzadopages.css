@@ -1,0 +1,113 @@
+/* body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    } */
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background:  rgb(115, 212, 88);
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .product {
+      border-bottom: 1px solid #ddd;
+      padding: 15px 0;
+    }
+    .product:last-child {
+      border-bottom: none;
+    }
+    .product h2 {
+      margin: 0 0 10px;
+      font-size: 1.5em;
+    }
+    .product p {
+      margin: 5px 0;
+      color: #555;
+    }
+    .product select {
+      padding: 5px;
+      font-size: 1em;
+      margin-top: 10px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+    .btn:hover {
+      background-color: rgb(115, 212, 88);
+    }
+   *,*::after,*::before {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+     
+      }
+
+        .carousel-btn {
+          width: 40px;
+          height: 40px;
+          margin: 5px;
+          cursor: pointer;
+          
+        }
+        
+        button {
+          background: none;
+          border: none;
+        }
+
+        button img {
+          width: 100%;
+          object-fit: contain;
+          padding:0;
+             background-color:  rgb(115, 212, 88);
+        }
+
+        .carousel-box {
+          width: 400px;
+          height: 400px;
+          margin: 5px;
+          
+          
+        }
+
+        .carousel-wrapper {
+          display: flex;
+          
+          
+        }
+
+        .carousel {
+          display: flex;
+          
+        }
+
+        .carousel-box img {
+          width: 100%;
+          object-fit: contain;
+             background-color:  rgb(115, 212, 88);
+        }
+
+        @media screen and (max-width: 499px) {
+          .carousel-box {
+            width: 180px;
+            height: 180px;
+            margin: 5px;
+        }
+        }

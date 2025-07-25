@@ -11,7 +11,6 @@
       overflow: hidden;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       text-align: center;
-      
     }
     .product-card img {
       width: 100%;
@@ -22,7 +21,7 @@
       font-size: 1.2rem;
     }
     .product-card p {
-      color: black;
+      color: #555;
       font-size: 1rem;
       margin: 0 10px 10px;
     }

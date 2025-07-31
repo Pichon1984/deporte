@@ -2,13 +2,13 @@
       max-width: 800px;
       margin: 20px auto;
       padding: 20px;
-      background:  rgb(115, 212, 88);
+      background:#fff;
     }
     h3{
         color: red;
     }
     .product {
-      border-bottom: 1px solid #ddd;
+      border-bottom: 1px solid #fff;
       padding: 15px 0;
     }
     .product:last-child {
@@ -27,7 +27,7 @@
       font-size: 1em;
       margin-top: 10px;
     }
-    .btn {
+    .btn6 {
       display: inline-block;
       margin-top: 10px;
       padding: 10px 15px;
@@ -37,22 +37,15 @@
       border-radius: 5px;
       font-size: 1em;
     }
-    .btn:hover {
-      background-color: rgb(115, 212, 88);
+    .btn6:hover {
+      background-color:#0056b3;
     }
    *,*::after,*::before {
         box-sizing: border-box;
         padding: 0;
         margin: 0;
       }
-      /* main {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-     
-      } */
+      
 
         .carousel-btn {
           width: 80px;
@@ -62,16 +55,17 @@
           
         }
         
-        button {
+        button1 {
           background: none;
           border: none;
+          background-color: #fff;
         }
 
         button img {
           width: 100%;
           object-fit: contain;
           padding:0;
-             background-color:  rgb(115, 212, 88);
+             background-color:#91C8E4;
         }
 
         .carousel-box {
@@ -96,7 +90,7 @@
         .carousel-box img {
           width: 100%;
           object-fit: contain;
-             background-color:  rgb(115, 212, 88);
+             background-color:#91C8E4;
         }
 
         @media screen and (max-width: 499px) {

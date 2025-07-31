@@ -5,7 +5,7 @@
       padding: 20px;
     }
     .product-card {
-      background: white;
+      background:#fff;
       border: 1px solid #ddd;
       border-radius: 8px;
       overflow: hidden;
@@ -26,18 +26,7 @@
       font-size: 1rem;
       margin: 0 10px 10px;
     }
-    .product-card button {
-      background-color: #28a745;
-      color: black;
-      border: none;
-      padding: 10px 15px;
-      margin-bottom: 10px;
-      cursor: pointer;
-      border-radius: 5px;
-    }
-    .product-card button:hover {
-      background-color: #198754;
-    }
+    
     h3{
       color: red;
     }

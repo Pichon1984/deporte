@@ -6,31 +6,36 @@
 }
 
 .navbar {
-    background-color: rgba(151, 237, 108, 0.934);
+    background-color: #007bff;
     display: block;
     flex-direction: column;
-    align-items: center;justify-content: space-around;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
 
 }
 
 footer {
-    background-color: rgba(151, 237, 108, 0.934);
+    background-color: #007bff;
+
 
 }
 
 .nav-link {
-    color: black;
+    color: white;
 
 }
 
 .btn-outline-success {
-    color: rgb(0, 0, 0);
+    color: white;
+    border-bottom: #0056b3;
 
 }
 
 
 .nav {
-    --bs-nav-link-hover-color: #198754;
+   /*  --bs-nav-link-hover-color: #007bff;  */
+    /* color: white;  */
     font-size: 1.5rem;
 }
 
@@ -40,14 +45,14 @@ a {
 
 #nav {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: space-evenly;
-    
-    
+
+
 }
 
 main {
-    background-color: rgb(115, 212, 88);
+    background-color:#0D5EA6;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -58,32 +63,60 @@ main {
 .logo {
     font-size: 1.5em;
     font-weight: bold;
-    color: #333;
+
 }
 
 .cart-button {
     display: flex;
     align-items: center;
-    background-color: rgba(151, 237, 108, 0.934);
-    color: rgb(9, 0, 0);
+    background-color: #007bff;
+    color: white;
     border: none;
-    border-radius: 5px;
-    padding: 10px 15px;
+    border-radius: 3px;
+    padding: 5px 10px;
     cursor: pointer;
     font-size: 1.5em;
     text-decoration: none;
+  
 }
 
 .cart-button:hover {
-    background-color: #198754;
+    background-color: #0056b3;
+    color: white;
+    border:2px ;
+    border-radius: 3px;
+    padding: 5px 10px;
+  
+
 }
 
 .cart-button span {
     margin-left: 10px;
 }
-.card-title{
+
+.card-title {
     display: flex;
     align-items: center;
     justify-items: center;
+    color: white;
+
+}
+
+.btn-outline:hover {
+    background-color: #0056b3;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px px;
+
+}
+
+.btn-outline {
+    background-color: #007bff;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+
 
 }

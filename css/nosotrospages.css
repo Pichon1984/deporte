@@ -10,5 +10,6 @@ main {
     }
     #map{
         display: flex;
-        justify-content: center;
+        justify-content: center;padding: 50px;
+
     }
